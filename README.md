@@ -54,3 +54,4 @@ Para instalaciones anteriores, ejecuta también `supabase/admin-policies.sql` de
 - La búsqueda, filtros por categoría y orden de productos se actualizan en el navegador sin volver a consultar Supabase.
 - El carrito se guarda localmente y permite cambiar cantidades antes de continuar.
 - Las imágenes secundarias usan carga diferida y las consultas del dashboard se limitan a métricas y pedidos recientes.
+# panaderias
