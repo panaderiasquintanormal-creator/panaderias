@@ -1,8 +1,14 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffaf4;
+  --foreground: #2a1d18;
+  --muted: #5b4337;
+  --card: #fffdf9;
+  --primary: #b7653e;
+  --primary-dark: #9d4c2a;
+  --accent: #f2d8ad;
+  --line: #f0e3d0;
 }
 
 @theme inline {
@@ -12,15 +18,65 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+.page-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(183, 101, 62, 0.12);
+  color: #8c4f2b;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.soft-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(82, 58, 43, 0.08);
+}
+
+.form-field {
+  width: 100%;
+  border: 1px solid #e7d7c7;
+  background: #fff;
+  border-radius: 16px;
+  padding: 0.9rem 1rem;
+  color: var(--foreground);
+}
+
+.form-field:focus {
+  outline: 2px solid rgba(183, 101, 62, 0.2);
+  border-color: #c98b5d;
 }
