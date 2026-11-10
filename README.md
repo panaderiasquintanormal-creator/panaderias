@@ -10,6 +10,8 @@ Plataforma web artesanal para una panadería premium con catálogo, carrito, ped
 
 ## Ejecutar localmente
 
+Requiere Node.js 24.
+
 ```bash
 npm install
 npm run dev
