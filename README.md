@@ -36,7 +36,7 @@ El catálogo y el panel administrativo usan Supabase. El checkout registra clien
 
 1. Configura `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` en `.env.local`.
 2. Ejecuta `supabase/schema.sql`, `supabase/admin-policies.sql` y `supabase/khipu-payment.sql` en Supabase.
-3. Configura en el servidor `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_SITE_URL` y `KHIPU_CREDENTIALS_ENCRYPTION_KEY`. Genera esta última con `openssl rand -base64 32`; no la cambies después de guardar credenciales, porque son necesarias para descifrarlas. Nunca uses el prefijo `NEXT_PUBLIC_` para secretos.
+3. Configura en el servidor `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_SITE_URL` y `KHIPU_CREDENTIALS_ENCRYPTION_KEY` como variables separadas, cada una con su propio valor. Genera esta última con `openssl rand -base64 32`; no la cambies después de guardar credenciales, porque son necesarias para descifrarlas. Nunca uses el prefijo `NEXT_PUBLIC_` para secretos.
 4. Crea el usuario desde Supabase Dashboard > Authentication > Users y define una contraseña. Cualquier usuario que inicie sesión correctamente con Supabase Authentication tiene acceso al panel.
 5. Inicia sesión desde `/admin/login`, abre **Pagos** y guarda la API key y el secreto de firma de notificaciones entregados por Khipu. El panel solo muestra el estado de configuración; las claves cifradas no se devuelven al navegador.
 
