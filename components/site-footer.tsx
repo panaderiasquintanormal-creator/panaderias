@@ -10,7 +10,7 @@ export function SiteFooter() {
               P
             </div>
             <div>
-              <p className="text-lg font-semibold">Panadería [Nombre]</p>
+              <p className="text-lg font-semibold">Panadería</p>
               <p className="text-xs uppercase tracking-[0.2em] text-[#e8d1b5]">Artesanal</p>
             </div>
           </div>
@@ -35,7 +35,9 @@ export function SiteFooter() {
             <li>Av. Providencia 1234</li>
             <li>+56 9 1234 5678</li>
             <li>hola@panaderiaejemplo.cl</li>
-            <li>Lun a Sáb: 8:00 - 19:00</li>
+            <li>Lun a Sáb • 07:00 - 13:30</li>
+            <li>Lun a Sáb • 16:00 - 19:30</li>
+            <li>Domingo   • 08:00 - 13:30</li>
           </ul>
         </div>
 

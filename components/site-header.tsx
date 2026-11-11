@@ -17,7 +17,7 @@ export function SiteHeader() {
             P
           </div>
           <div>
-            <p className="text-lg font-semibold text-[#2a1d18]">Panadería [Nombre]</p>
+            <p className="text-lg font-semibold text-[#2a1d18]">Panadería</p>
             <p className="text-xs uppercase tracking-[0.2em] text-[#8b6a4a]">Artesanal</p>
           </div>
         </Link>

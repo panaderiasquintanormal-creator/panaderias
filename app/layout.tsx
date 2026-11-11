@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Panadería [Nombre] | Artesanal y premium',
+  title: 'Panadería | Artesanal y premium',
   description: 'Plataforma web completa de panadería con catálogo, pedidos, pagos y panel administrativo.',
 };
 

@@ -157,8 +157,10 @@ export default async function HomePage() {
             <p className="section-tag">Contacto</p>
             <h2 className="mt-4 text-3xl font-bold text-[#2a1d18]">Atención cercana y WhatsApp</h2>
             <div className="mt-6 space-y-4 text-[#5b4337]">
-              <p><strong>Dirección:</strong> Av. Providencia 1234, Santiago</p>
-              <p><strong>Horario:</strong> Lun a Sáb • 8:00 - 19:00</p>
+              <p><strong>Dirección:</strong> Av. Carrascal 1234, Santiago</p>
+              <p><strong>Horario:</strong> Lun a Sáb • 07:00 - 13:30</p>
+              <p><strong>Horario:</strong> Lun a Sáb • 16:00 - 19:30</p>
+              <p><strong>Horario:</strong> Domingo   • 08:00 - 13:30</p>
               <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
               <p><strong>Email:</strong> hola@panaderiaejemplo.cl</p>
             </div>
