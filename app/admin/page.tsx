@@ -87,8 +87,8 @@ export default async function AdminDashboardPage() {
             <button className="rounded-full bg-[#fff8f0] px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-[#5b4337]">Ver todos</button>
           </div>
 
-          <div className="overflow-hidden rounded-2xl border border-[#f1e3d0]">
-            <table className="w-full text-left text-sm">
+          <div className="overflow-x-auto rounded-2xl border border-[#f1e3d0]">
+            <table className="min-w-[36rem] w-full text-left text-sm">
               <thead className="bg-[#fff8f0] text-[#5b4337]">
                 <tr>
                   <th className="px-4 py-3 font-semibold">Pedido</th>

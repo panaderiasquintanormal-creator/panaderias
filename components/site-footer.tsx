@@ -32,7 +32,7 @@ export function SiteFooter() {
         <div>
           <h3 className="mb-4 text-base font-semibold uppercase tracking-[0.2em] text-[#f8d8a6]">Contacto</h3>
           <ul className="space-y-3 text-sm text-[#f5dcc2]">
-            <li>Av. Providencia 1234</li>
+            <li>Av. Carrascal 1234</li>
             <li>+56 9 1234 5678</li>
             <li>hola@panaderiaejemplo.cl</li>
             <li>Lun a Sáb • 07:00 - 13:30</li>
@@ -50,7 +50,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-[#4d352d] py-5 text-center text-sm text-[#ead8bb]">
-        © 2026 Panadería [Nombre]. Todos los derechos reservados.
+        © 2026 Panadería. Todos los derechos reservados.
       </div>
     </footer>
   );

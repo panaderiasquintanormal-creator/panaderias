@@ -53,7 +53,7 @@ export default async function HomePage() {
                 alt="Pan artesanal fresco"
                 fetchPriority="high"
                 decoding="async"
-                className="h-[500px] w-full rounded-[24px] object-cover"
+                className="h-[70vh] max-h-[500px] w-full rounded-[24px] object-cover sm:h-[500px] sm:max-h-none"
               />
             </div>
           </div>
